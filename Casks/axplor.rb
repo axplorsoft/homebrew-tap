@@ -1,5 +1,5 @@
 cask "axplor" do
-  version "0.0.26"
+  version "0.0.27"
 
   if Hardware::CPU.arm?
     url "https://axplor-builds.s3.ap-south-1.amazonaws.com/platforms/macos/arm/releases/axplor-0.0.27-macos-arm.tar.gz"
