@@ -2,11 +2,11 @@ cask "axplor" do
   version "0.0.27"
 
   if Hardware::CPU.arm?
-    url "https://axplor-builds.s3.ap-south-1.amazonaws.com/platforms/macos/arm/releases/axplor-0.0.27-macos-arm.tar.gz"
-    sha256 "dc89e5decaecf5e13a1f800bae86c2f1d8a4d6ad84e0bb5f2b165782b8dcd60f"
+    url "https://axplor-builds.s3.ap-south-1.amazonaws.com/platforms/macos/arm/releases/axplor-0.0.27-macos-arm.app.tar.gz"
+    sha256 "b247db71b15f1c35ca69fc9bb2db07162f209ecb2b6bdf531a20da7c60bd20c3"
   else
-    url "https://axplor-builds.s3.ap-south-1.amazonaws.com/platforms/macos/x86/releases/axplor-0.0.27-macos-x86_64.tar.gz"
-    sha256 "83a80286bbff42fa2ca38f9443c3616f3b347943e2f6290ae85d7719b535621e"
+    url "https://axplor-builds.s3.ap-south-1.amazonaws.com/platforms/macos/x86/releases/axplor-0.0.27-macos-x86_64.app.tar.gz"
+    sha256 "6deb61e1d2a68f65d096f853ac9fc9adc6228d03795f42c9c7b53d072207c7b9"
   end
 
   name "Axplor"
